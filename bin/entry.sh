@@ -38,6 +38,7 @@ build() {
 
   # Rename the shared library
   LIB="lib/zoomsdk/libmeetingsdk.so"
+
   [[ ! -f "${LIB}.1" ]] && cp "$LIB"{,.1}
 
   # Set up and start pulseaudio
